@@ -7,7 +7,7 @@
 *.jpeg
 *.db
 *.pkl
-!xgboost_20210524225709955035/models/model.pkl
+!modeling/xgboost_20210524225709955035/models/model.pkl
 *.dot
 *.DS_Store
 .idea/
