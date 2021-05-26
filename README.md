@@ -1,1 +1,1 @@
-# world-series-projections-batch
+# world-series-projections
