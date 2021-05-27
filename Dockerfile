@@ -8,6 +8,7 @@ RUN mkdir /app
 WORKDIR /app
 COPY . /app
 RUN chown -R appuser:docker /app
+ENV PATH="/home/appuser/.local/bin:${PATH}"
 USER appuser
 RUN pip install --no-cache-dir -r requirements.txt
 ENTRYPOINT ["python3"]
