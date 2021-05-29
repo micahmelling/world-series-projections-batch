@@ -15,7 +15,7 @@ def main():
     today = datetime.today().date().strftime('%Y-%m-%d')
     years = list(np.arange(1905, 2021))
     random_year = random.choice(years)
-    pipeline = joblib.load('modeling/xgboost_20210524225709955035/models/model.pkl')
+    pipeline = joblib.load('modeling/xgboost_20210528203348828936/models/model.pkl')
     teams_data = assemble_modeling_data()
     year_data = teams_data.loc[teams_data['team_yearID'] == random_year]
     predictions_df = pd.concat(

@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.7
 MAINTAINER Micah Melling, micahmelling@gmail.com
 RUN groupadd docker
 RUN useradd --create-home appuser

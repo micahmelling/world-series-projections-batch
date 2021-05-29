@@ -24,7 +24,6 @@ def assemble_modeling_data():
     """
     Assembles training data for predicting the World Series winner based on statistics only from previous seasons.
     """
-    print('assembling training data...')
     batting_df = get_batting_stats()
     pitching_df = get_pitching_stats()
     all_star_df = get_historical_all_star_appearances()
