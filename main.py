@@ -39,7 +39,7 @@ def main():
     yag.send(
         to=recipients,
         subject=f'World Series Predictions for {random_year} Produced on {today}',
-        contents='Please see attachment for predictions.',
+        contents='Please see attachment for predictions :-)',
         attachments=[f'world_series_predictions_for_{random_year}.csv']
     )
 

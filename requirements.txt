@@ -1,6 +1,6 @@
---trusted-host data-science-helpers.s3-website-us-west-2.amazonaws.com
---find-links http://data-science-helpers.s3-website-us-west-2.amazonaws.com/data_science_helpers/
-data-science-helpers==0.0.1
+--trusted-host private-package-url
+--find-links private-package-url
+private-package-name==0.0.1
 yagmail==0.14.256
 pandas==1.2.2
 numpy==1.20.1
@@ -14,3 +14,4 @@ matplotlib==3.2.0
 lightgbm==2.3.1
 shap==0.36.0
 PyALE==1.1.0
+pytest==6.2.2
